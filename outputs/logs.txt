@@ -1,0 +1,36 @@
+[17:21:34] [Model]: Loading t5-base...                             utils.py:119
+                                                                               
+[17:40:20] [Data]: Reading data...                                 utils.py:130
+                                                                               
+FULL Dataset: (99, 2)
+TRAIN Dataset: (79, 2)
+TEST Dataset: (20, 2)
+
+           [Initiating Fine Tuning]...                             utils.py:174
+                                                                               
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.0360, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.0360, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(2.3744, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+                      Training Status                       
++----------------------------------------------------------+
+|Epoch | Steps |                    Loss                   |
+|------+-------+-------------------------------------------|
+|  0   |   0   | tensor(8.0360, grad_fn=<NllLossBackward0>)|
+|  1   |   0   | tensor(2.3744, grad_fn=<NllLossBackward0>)|
+|  2   |   0   | tensor(1.5671, grad_fn=<NllLossBackward0>)|
++----------------------------------------------------------+
+[18:29:35] [Saving Model]...                                       utils.py:179
+                                                                               
+[18:29:38] [Initiating Validation]...                              utils.py:186
+                                                                               
+Completed 0

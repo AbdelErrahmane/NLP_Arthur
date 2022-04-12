@@ -1,0 +1,7 @@
+# Using python 3.9
+
+pandas == 1.2.4
+sentencepiece
+transformers
+rich[jupyter]
+torch==1.10.0
